@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+html{
+  background-color: #161519;
+  font-size: 17pt
+}
+
+.lookgood{
+  margin-top: 150px;
+  color: pink;
+  font-family: 'Gamja Flower', cursive;
+  
+}
+
+.loading{
+  width: 200pt;
+  max-width: 400px
+}
