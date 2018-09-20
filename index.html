@@ -3,24 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>The Last Experience</title>
-  <!--
-today: be happy
-tomorrow: be happy
-everyday: be happy
--->
-
-
-<script>
-if (window.location.href.indexOf("fullcpgrid") > -1) {
-	document.addEventListener('DOMContentLoaded', function() {
-		const original = document.createElement('iframe');
-		original.style.display = 'none';
-		document.body.appendChild(original);
-		window.requestAnimationFrame = original.contentWindow.requestAnimationFrame;
-	}, false);
-}
-</script>
+  <title>A Pen by  Tanya</title>
+  
   
   
       <link rel="stylesheet" href="css/style.css">
@@ -30,38 +14,40 @@ if (window.location.href.indexOf("fullcpgrid") > -1) {
 
 <body>
 
-                  <canvas></canvas>
-<!-- 
-                  ,--.    ,--.
-                 ((O ))--((O ))
-               ,'_`--'____`--'_`.
-              _:  ____________  :_
-             | | ||::::::::::|| | |
-             | | ||::::::::::|| | |
-             | | ||::::::::::|| | |
-             |_| |/__________\| |_|
-               |________________|
-            __..-'            `-..__
-         .-| : .----------------. : |-.
-       ,\ || | |\______________/| | || /.
-      /`.\:| | ||  __  __  __  || | |;/,'\
-     :`-._\;.| || '--''--''--' || |,:/_.-':
-     |    :  | || .----------. || |  :    |
-     |    |  | || '----SSt---' || |  |    |
-     |    |  | ||   _   _   _  || |  |    |
-     :,--.;  | ||  (_) (_) (_) || |  :,--.;
-     (`-'|)  | ||______________|| |  (|`-')
-      `--'   | |/______________\| |   `--'
-             |____________________|
-              `.________________,'
-               (_______)(_______)
-               (_______)(_______)
-               (_______)(_______)
-               (_______)(_______)
-              |        ||        |
-              '--------''--------'
--->
-  
+  <a href="https://youtu.be/Yix-rJKLt98" target="_blank" data-keyframers-credit style="color: #000"></a>
+<script src="https://codepen.io/shshaw/pen/QmZYMG.js"></script>
+
+<div data-splitting>TANYA</div>
+
+<!-- Squigglevision -->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none">
+  <defs>
+    <filter id="squiggly-0">
+      <feTurbulence id="turbulence" baseFrequency="0.05" numOctaves="3" result="noise" seed="0"/>
+      <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="2" />
+    </filter>
+    <filter id="squiggly-1">
+      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+    </filter>
+    
+    <filter id="squiggly-2">
+      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2.5"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="2" />
+    </filter>
+    <filter id="squiggly-3">
+      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="3" />
+    </filter>
+    
+    <filter id="squiggly-4">
+      <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="1" />
+    </filter>
+  </defs> 
+</svg>
+  <script src='https://unpkg.com/splitting/dist/splitting.min.js'></script>
+
   
 
     <script  src="js/index.js"></script>
